@@ -2,6 +2,7 @@
 
 import Head from "next/head";
 import { BsFillMoonStarsFill } from 'react-icons/bs';
+import Image2 from 'next/legacy/image';
 import Image from 'next/image';
 import ctnjohnson from '../public/cartoon-johnson.png';
 import design from '../public/design.png';
@@ -58,7 +59,7 @@ export default function Home() {
             
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-orange-400 rounded-full overflow-hidden w-80 h-80 mt-20 md:h-96 md:w-96">
-            {/* <Image alt="Johnson" src={ctnjohnson} layout="fill" objectFit="cover" className="md:object-center" /> */}
+            <Image2 alt="Johnson" src={ctnjohnson} layout="fill" objectFit="cover" className="md:object-center" />
           </div>
         </section>
         {/* Page 2*/}
