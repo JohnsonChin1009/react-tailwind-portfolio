@@ -58,8 +58,10 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/johnson-chin-70b865224/"><AiFillLinkedin /></a>
             
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-orange-400 rounded-full overflow-hidden w-80 h-80 mt-20 md:h-96 md:w-96">
-            <Image2 alt="Johnson" src={ctnjohnson} layout="fill" objectFit="cover" className="md:object-center" />
+          <div className="flex justify-center">
+            <div className="relative mx-auto bg-gradient-to-b from-orange-400 rounded-full overflow-hidden w-80 h-80 mt-20 md:h-96 md:w-96">
+              <Image2 alt="Johnson" src={ctnjohnson} layout="fill" objectFit="cover" className="md:object-center" />
+            </div>
           </div>
         </section>
         {/* Page 2*/}
