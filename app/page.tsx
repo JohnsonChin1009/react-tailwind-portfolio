@@ -57,7 +57,7 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/johnson-chin-70b865224/"><AiFillLinkedin /></a>
             
           </div>
-          <div className="relative mx-auto bg-gradient-to-b from-orange-400 rounded-full w-96 h-96 mt-20 overflow-hidden md:h-96 md:w-96">
+          <div className="relative mx-auto bg-gradient-to-b from-orange-400 rounded-full w-96 h-96 mt-20 overflow-x-hidden md:h-96 md:w-96">
             <Image alt="Johnson" src={ctnjohnson} layout="fill" objectFit="cover" className="md:object-center" />
           </div>
         </section>
